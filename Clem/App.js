@@ -1,13 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet,Text, View,} from 'react-native';
-import Header from './component/header';
-import Body from './component/body';
+import { StyleSheet, Text, View } from 'react-native';
+import Home from './components/home';
+import Checkout from './components/checkout';
 
-export default function App() {
+const App = () => {
   return (
     <View style={styles.container}>
-      <Header />
-      <Body />
+      {/* <Home /> */}
+      <Checkout />
     </View>
   );
 }
@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    margin: 100,
   },
 });
+
+export default App;

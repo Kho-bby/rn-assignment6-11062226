@@ -1,4 +1,6 @@
-import { View , Text, Image, StyleSheet} from "react-native";
+import { View , Text, Image, TouchableOpacity, StyleSheet} from "react-native";
+
+
 
 const Header = () => {
     return(
@@ -10,7 +12,14 @@ const Header = () => {
             
             <View style={{flexDirection:'row', gap:14}}>
                 <Image style={styles.search} source={require('../assets/Search.png')}/>
-                <Image style={styles.shoppingbag} source={require('../assets/shoppingBag.png')}/>
+
+                <TouchableOpacity >
+                    <Image
+                        // style={styles.image}
+                        source={require('../assets/shoppingBag.png')}
+                    />
+                </TouchableOpacity>
+                {/* <Image style={styles.shoppingbag} source={require('../assets/shoppingBag.png')}/> */}
             </View>
             
         </View> 
@@ -20,7 +29,7 @@ const Header = () => {
 
 const styles = StyleSheet.create({
     headercontainer:{
-        // flex: 1,
+        flex: 1,
         flexDirection: 'row',
         justifyContent: 'space-between',
         marginBottom: 700,
