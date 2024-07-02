@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View,} from 'react-native';
-import Header from '../Clem/component/header';
+import { StyleSheet,Text, View,} from 'react-native';
+import Header from './component/header';
 import Body from './component/body';
 
 export default function App() {
