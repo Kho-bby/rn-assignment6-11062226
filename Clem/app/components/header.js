@@ -1,5 +1,6 @@
 import { View , Text, Image, TouchableOpacity, StyleSheet} from "react-native";
-
+import { useState } from "react";
+import {  router } from 'expo-router';
 
 
 const Header = () => {
@@ -7,19 +8,19 @@ const Header = () => {
         
         <View style={styles.headercontainer}>
             
-            <Image  style={styles.menu} source={require('../assets/Menu.png')}/>
-            <Image style={styles.logo} source={require('../assets/Logo.png')}/>
+            <Image  style={styles.menu} source={require('../../assets/Menu.png')}/>
+            <Image style={styles.logo} source={require('../../assets/Logo.png')}/>
             
             <View style={{flexDirection:'row', gap:14}}>
-                <Image style={styles.search} source={require('../assets/Search.png')}/>
+                <Image style={styles.search} source={require('../../assets/Search.png')}/>
 
-                <TouchableOpacity >
+                <TouchableOpacity  onPress={() => router.push("./checkout")}>
                     <Image
                         // style={styles.image}
-                        source={require('../assets/shoppingBag.png')}
+                        source={require('../../assets/shoppingBag.png')}
                     />
                 </TouchableOpacity>
-                {/* <Image style={styles.shoppingbag} source={require('../assets/shoppingBag.png')}/> */}
+              
             </View>
             
         </View> 

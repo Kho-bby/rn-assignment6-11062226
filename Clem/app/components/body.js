@@ -10,8 +10,8 @@ const Body = () => {
                     OUR STORY
                 </Text>
                 <View style={{flexDirection:'row', gap:14}}>
-                    <Image  style={styles.listView} source={require('../assets/Listview.png')}/>
-                    <Image  style={styles.filter} source={require('../assets/Filter.png')}/>
+                    <Image  style={styles.listView} source={require('../../assets/Listview.png')}/>
+                    <Image  style={styles.filter} source={require('../../assets/Filter.png')}/>
                 </View>
             </View>
 
@@ -19,12 +19,12 @@ const Body = () => {
                 <View style={styles.Main}>
                     <View style={styles.Box}>
                         <ImageBackground
-                            source={require('../assets/dress1.png')}
+                            source={require('../../assets/dress1.png')}
                             style={styles.backgroundImage}
                             >
                             <Image
                             style={styles.overlayImage} 
-                            source={require('../assets/add_circle.png')}/>
+                            source={require('../../assets/add_circle.png')}/>
                         </ImageBackground>
                         <Text style={{ marginTop: 5, marginLeft: 0}}>Office Wear</Text>
                         <Text style={{opacity:0.5, marginTop: 5}}>reversible angona cardigan</Text>
@@ -32,12 +32,12 @@ const Body = () => {
                     </View>
                     <View style={styles.Box}>
                         <ImageBackground
-                            source={require('../assets/dress2.png')}
+                            source={require('../../assets/dress2.png')}
                             style={styles.backgroundImage}
                             >
                             <Image
                             style={styles.overlayImage} 
-                            source={require('../assets/add_circle.png')}/>
+                            source={require('../../assets/add_circle.png')}/>
                         </ImageBackground>
                         <Text style={{ marginTop: 5, marginLeft: 0}}>Black</Text>
                         <Text style={{opacity:0.5, marginTop: 5}}>reversible angona cardigan</Text>
@@ -48,12 +48,12 @@ const Body = () => {
                 <View style={styles.Main}>
                     <View style={styles.Box}>
                         <ImageBackground
-                            source={require('../assets/dress3.png')}
+                            source={require('../../assets/dress3.png')}
                             style={styles.backgroundImage}
                             >
                             <Image
                             style={styles.overlayImage} 
-                            source={require('../assets/add_circle.png')}/>
+                            source={require('../../assets/add_circle.png')}/>
                         </ImageBackground>
                         <Text style={{ marginTop: 5, marginLeft: 0}}>Office Wear</Text>
                         <Text style={{opacity:0.5, marginTop: 5}}>reversible angona cardigan</Text>
@@ -61,12 +61,12 @@ const Body = () => {
                     </View>
                     <View style={styles.Box}>
                         <ImageBackground
-                            source={require('../assets/dress4.png')}
+                            source={require('../../assets/dress4.png')}
                             style={styles.backgroundImage}
                             >
                             <Image
                             style={styles.overlayImage} 
-                            source={require('../assets/add_circle.png')}/>
+                            source={require('../../assets/add_circle.png')}/>
                         </ImageBackground>
                         <Text style={{ marginTop: 5, marginLeft: 0}}>Black</Text>
                         <Text style={{opacity:0.5, marginTop: 5}}>reversible angona cardigan</Text>
@@ -77,12 +77,12 @@ const Body = () => {
                 <View style={styles.Main}>
                     <View style={styles.Box}>
                         <ImageBackground
-                            source={require('../assets/dress2.png')}
+                            source={require('../../assets/dress2.png')}
                             style={styles.backgroundImage}
                             >
                             <Image
                             style={styles.overlayImage} 
-                            source={require('../assets/add_circle.png')}/>
+                            source={require('../../assets/add_circle.png')}/>
                         </ImageBackground>
                         <Text style={{ marginTop: 5, marginLeft: 0}}>Office Wear</Text>
                         <Text style={{opacity:0.5, marginTop: 5}}>reversible angona cardigan</Text>                        
@@ -90,12 +90,12 @@ const Body = () => {
                     </View>
                     <View style={styles.Box}>
                         <ImageBackground
-                            source={require('../assets/dress6.png')}
+                            source={require('../../assets/dress6.png')}
                             style={styles.backgroundImage}
                             >
                             <Image
                             style={styles.overlayImage} 
-                            source={require('../assets/add_circle.png')}/>
+                            source={require('../../assets/add_circle.png')}/>
                         </ImageBackground>
                         <Text style={{ marginTop: 5, marginLeft: 0}}>Black</Text>
                         <Text style={{opacity:0.5, marginTop: 5}}>reversible angona cardigan</Text>
@@ -106,12 +106,12 @@ const Body = () => {
                 <View style={styles.Main}>
                     <View style={styles.Box}>
                         <ImageBackground
-                            source={require('../assets/dress7.png')}
+                            source={require('../../assets/dress7.png')}
                             style={styles.backgroundImage}
                             >
                             <Image
                             style={styles.overlayImage} 
-                            source={require('../assets/add_circle.png')}/>
+                            source={require('../../assets/add_circle.png')}/>
                         </ImageBackground>
                         <Text style={{ marginTop: 5, marginLeft: 0}}>Office Wear</Text>
                         <Text style={{opacity:0.5, marginTop: 5}}>reversible angona cardigan</Text>
@@ -119,12 +119,12 @@ const Body = () => {
                     </View>
                     <View style={styles.Box}>
                         <ImageBackground
-                            source={require('../assets/dress3.png')}
+                            source={require('../../assets/dress3.png')}
                             style={styles.backgroundImage}
                             >
                             <Image
                             style={styles.overlayImage} 
-                            source={require('../assets/add_circle.png')}/>
+                            source={require('../../assets/add_circle.png')}/>
                         </ImageBackground>
                         <Text style={{ marginTop: 5, marginLeft: 0}}>Black</Text>
                         <Text style={{opacity:0.5, marginTop: 5}}>reversible angona cardigan</Text>
